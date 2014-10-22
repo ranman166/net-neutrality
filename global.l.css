@@ -1,0 +1,29 @@
+html, body {margin: 0px; padding: 0px;}
+
+#video {
+    float: left;
+    
+}
+#videolist {
+    float: right;
+    width: 280px;
+}
+
+
+
+.button-color(@color) {
+    background: radial-gradient(@color + #101010, @color), @color;
+}
+
+.button {
+    .button-color(#00EE00);
+}
+
+
+
+
+@media (max-width: 320px) {
+    #video {
+	wdith: 300px;
+    }
+}
